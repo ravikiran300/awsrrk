@@ -1,3 +1,18 @@
+Simply we say
+
+where we can launch aws resources in a virtual network and we can control over the network 
+vpc lets you provision a logically isolated network 
+in vpc we can control our virtual networking env ip address creation of subnets route tables and gateways
+
+instead of 
+
+Modem - internetgateway
+Router and switches- Routing tables
+Firwall - Netwrok access control list(NACL),SECURITY GROUPS
+system - ec2
+
+we create whatever resources we require and create our own virtual private network and can control access to the network
+
 We have default VPC in cloud
 default vpc have internet conncetivity
 we public and private vpc
