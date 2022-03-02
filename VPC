@@ -25,3 +25,8 @@ SLD DNS
 TLD DNS
 CIDR
 
+
+=========================
+
+we can create 5 vpc per region.
+
