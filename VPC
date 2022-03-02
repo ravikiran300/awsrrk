@@ -44,5 +44,11 @@ so i need public subnet and private subnets
 n/w addeess,vpc routers,aws DNS, futre use 
 last ip address broadcast address
 
+in nacl we allow and deny ports
+in security we can't deny port and we can only allow
+
+nacl operates on subnet level
+security groubs instance level
+
 
 
