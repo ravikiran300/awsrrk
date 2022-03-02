@@ -30,3 +30,6 @@ CIDR
 
 we can create 5 vpc per region.
 
+maximun 16 and min 28 for cidr range
+
+
