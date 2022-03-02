@@ -34,6 +34,17 @@ maximun 16 and min 28 for cidr range
 
 need for subnet==>
 
+vpc perring
+=========
+
+you have two vpc and if u want communication between two vpcs
+should do cidr should not overlapping
+not transitative 
+vpca and talk to vpcb but not a vpcc
+vpcc shoud have perring to vpca to talk
+
+u can talk different aws account using vpc perring
+
 iam running an application and database
 
 so i need public subnet and private subnets
