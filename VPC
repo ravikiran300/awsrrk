@@ -32,4 +32,17 @@ we can create 5 vpc per region.
 
 maximun 16 and min 28 for cidr range
 
+need for subnet==>
+
+iam running an application and database
+
+so i need public subnet and private subnets
+
+5 addeess ipv6 aws keeps in reserved 
+
+10.0.0.0,1,2,3,
+n/w addeess,vpc routers,aws DNS, futre use 
+last ip address broadcast address
+
+
 
