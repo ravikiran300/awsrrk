@@ -1,0 +1,8 @@
+Amazon EBS provides block level storage - It is used to create a filesystem on it and store files.
+Amazon EFS - its shared storage system similar like NAS/SAN. You need to mount it to unix server and use it.
+Amazon S3 - It is object based storage where each item is stored with a http URL.
+
+One of the difference is - EBS can be attached to 1 instance at a time and EFS can be attached to multiple instances that why shared storage. S3 
+plain object storage cannot be mounted.
+
+https://stackoverflow.com/questions/29575877/aws-efs-vs-ebs-vs-s3-differences-when-to-use
