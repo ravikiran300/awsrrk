@@ -6,3 +6,25 @@ One of the difference is - EBS can be attached to 1 instance at a time and EFS c
 plain object storage cannot be mounted.
 
 https://stackoverflow.com/questions/29575877/aws-efs-vs-ebs-vs-s3-differences-when-to-use
+
+There are currently 69 Availability Zones worldwide
+
+===========
+
+IAM
+
+IAM USER
+A person or application that can authenticate with an AWS
+account.
+
+GROUPS
+A collection of IAM users that are granted identical
+authorization
+
+IAM POLICY
+The document that defines which resources can be
+accessed and the level of access to each resource
+
+IAM ROLE
+Useful mechanism to grant a set of permissions for
+making AWS service requests.
