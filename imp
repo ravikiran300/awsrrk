@@ -5,9 +5,18 @@ Amazon S3 - It is object based storage where each item is stored with a http URL
 One of the difference is - EBS can be attached to 1 instance at a time and EFS can be attached to multiple instances that why shared storage. S3 
 plain object storage cannot be mounted.
 
+Glacier is:
+
+Long term archive storage
+Extremely cheap to store
+Potentially very expensive to retrieve
+Takes up to 4 hours to "read back" your data (so only store items you know you won't need to retrieve for a long time)
+
 https://stackoverflow.com/questions/29575877/aws-efs-vs-ebs-vs-s3-differences-when-to-use
 
 There are currently 69 Availability Zones worldwide
+
+https://drive.google.com/drive/search?q=aws%20efs
 
 ===========
 
@@ -28,3 +37,5 @@ accessed and the level of access to each resource
 IAM ROLE
 Useful mechanism to grant a set of permissions for
 making AWS service requests.
+
+https://drive.google.com/drive/folders/1dR-BS7rKNviMXd8LuBaBBkIeoA-thfIJ
