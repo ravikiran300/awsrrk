@@ -1,4 +1,31 @@
- Elastic Beanstal:.
+ALB — Layer 7 (HTTP/HTTPS traffic), Flexible.
+NLB — Layer 4 (TLS/TCP/UDP traffic), Static IPs.
+CLB — Layer 4/7 (HTTP/TCP/SSL traffic), Legacy, Avoid
+
+ 1)NLB just forward requests whereas ALB examines the contents of the HTTP request header to determine where to route the request.
+ So, application load balancer is performing content based routing.
+ 2)when we lunch multiple application ALB will differentiate between the two applications by examining the application layer data available to it.
+  This difference means that NLB may end up sending requests to an application that has crashed or is offline, but ALB will never make that same mistake.
+
+==============================================
+ 
+ When considering the deployment of multiple applications on the same host sharing IP addresses (virtual hosts in old school speak),
+ NLB will not differentiate between Application A and Application B when checking availability (indeed it cannot unless ports are different)
+ but ALB will differentiate between the two applications by examining the application layer data available to it. 
+ This difference means that NLB may end up sending requests to an application that has crashed or is offline, but ALB will never make that same mistake.
+
+==============================================
+
+https://medium.com/awesome-cloud/aws-difference-between-application-load-balancer-and-network-load-balancer-cb8b6cd296a4#:~:text=Application%20Load%20Balancer%20(as%20the,OSI%20model%2C%20Connection%20level).
+
+Works on layer 4(TCP) & layer 7( HTTP & HTTPS)
+• Health check are TCP & HTTP based.
+• They have fixed hostname
+• E.g - mylb.region.elb.amazonaws.com
+
+==============================================
+
+Elastic Beanstalk:.
 ==================
 
 AWS Elastic Beanstalk is one such development tool implemented based on PaaS model.
