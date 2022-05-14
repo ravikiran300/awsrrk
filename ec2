@@ -83,3 +83,31 @@ https://stackoverflow.com/questions/66846750/what-is-the-difference-between-aws-
 =====================================
 
 https://drive.google.com/drive/search?q=ec2
+
+====================================================
+
+EmptyDir:
+
+. An emptyDir volume is first created when a Pod is assigned to a Node and exists as long  as that Pod is running on that node.
+. As the name says, it is initially empty. All Containers in the same Pod can read and write in the same emptyDir volume.
+. When a Pod is restarted or removed, the data in the emptyDir is lost forever.
+
+================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
