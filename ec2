@@ -7,3 +7,35 @@ AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web ap
 
 With AWS Elastic Beanstalk, a developer can deploy an application without provisioning the underlying infrastructure while maintaining high availability.
 
+
+===================================
+
+There are basically 3 pricing options in EC2:
+
+Spot Instances
+On-Demand Instances
+Reserved Instances
+Spot Instances is a pricing option which enables you to bid on unused EC2 instances.
+The hourly price for a Spot Instance is set by AWS EC2, and it fluctuates according to the availability of the instances in a specific Availability Zone.
+
+Basically, you will set a price for an instance above which you do not wish to get charged for.
+The price that you set is for per hour basis, therefore the moment the price for that instance becomes greater
+than what you have set, the instance gets shut down automatically.
+On-Demand Instances are used when you want to pay for the hour, with no long-term commitments and upfront payments.
+They are useful for applications that may have unpredictable workloads or for test applications that are being deployed for the first time.
+
+Reserved Instances provide you with significant discounts as compared to On-Demand Instances. With Reserved Instances you reserve instances for a specific period 
+of time with three payment options:
+
+No Upfront
+Partial Upfront
+Full Upfront
+And two-term lengths:
+
+One Year Term
+Three Year Term
+The higher the upfront payment is, the more you save money.
+
+=====================================
+
+https://drive.google.com/drive/search?q=ec2
