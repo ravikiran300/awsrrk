@@ -1,3 +1,5 @@
+https://medium.com/awesome-cloud
+
 ALB — Layer 7 (HTTP/HTTPS traffic), Flexible.
 NLB — Layer 4 (TLS/TCP/UDP traffic), Static IPs.
 CLB — Layer 4/7 (HTTP/TCP/SSL traffic), Legacy, Avoid
