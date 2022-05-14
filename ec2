@@ -94,8 +94,34 @@ EmptyDir:
 
 ================================
 
+HostPath:
+
+A hostPath volume mounts a file or directory from the node's filesystem into the Pod.
+You can specify whether the file/directory must already exist on the node or should be created on pod startup.
+You can do it using a type attribute in the config file
+
+=====
+
+Persistent Volumes (PV) & Persistent Volume Claims (PVC):
+
+1)Persistent Volume (PV) is an abstraction for the physical storage device that you have attached to the cluster. Pods can use this storage space using Persistent Volume Claims (PVC).
+PV is independent of the lifecycle of the Pods. It means that data represented by a PV continue to exist as the cluster changes and as Pods are deleted and recreated.
+ PV is not Namespaced, it is available to whole cluster. i.e PV is accessible to all namespaces.
+
+2)Kubernetes looks for a PV that meets the criteria defined in the PVC, and if there is one, it matches claim to PV.
+PVC must be in same namespace as the Pod. For each Pod, a PVC makes a storage consumption request within a namespace.
 
 
+
+Storage Classes (SC):
+
+. StorageClass provisions PV dynamically, when PVC claims it.
+
+. StorageClass allows dynamically provision volumes for an incoming claim.
+
+. StorageClass is used in conjunction with PVC that allow Pods to dynamically request a new storage.
+
+. StorageClass use provisioners that are specific to the storage platform or cloud provider to give Kubernetes access to the physical storage
 
 
 
