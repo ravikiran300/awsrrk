@@ -18,6 +18,8 @@ CLB — Layer 4/7 (HTTP/TCP/SSL traffic), Legacy, Avoid
 
 https://medium.com/awesome-cloud/aws-difference-between-application-load-balancer-and-network-load-balancer-cb8b6cd296a4#:~:text=Application%20Load%20Balancer%20(as%20the,OSI%20model%2C%20Connection%20level).
 
+
+classic loadbalancer
 Works on layer 4(TCP) & layer 7( HTTP & HTTPS)
 • Health check are TCP & HTTP based.
 • They have fixed hostname
