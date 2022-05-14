@@ -32,7 +32,7 @@ Works on layer 4(TCP) & layer 7( HTTP & HTTPS)
 
 Elastic Beanstalk:.
 ==================
-
+https://www.quora.com/What-is-the-difference-between-AWS-Beanstalk-and-Lambda-Both-seem-to-be-serving-the-purpose-of-taking-care-of-infrastructure-maintenance
 AWS Elastic Beanstalk is one such development tool implemented based on PaaS model.
 
 AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services 
