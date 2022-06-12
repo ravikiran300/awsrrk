@@ -1,0 +1,15 @@
+https://medium.com/@revathijoshi70/how-to-create-a-high-availability-web-site-using-autoscaling-and-application-load-balancer-6d0197116bb1
+
+How to create a high-availability web site with an Application Load Balancer using Autoscaling and monitored by Cloudwatch
+
+Objectives:
+A Custom VPC with 3 Availability Zones for High Availability
+Each Availability Zone has a public subnet ONLY.
+There are two EC2 instances, created by a launch template which will have specifications to include custom VPCs in public subnets.
+Next, we are going to add a bootstrap script to automatically install and setup the Apache Web Server in Advanced Details under User data.
+This will enable to check IP addresses located in different Availability zones on the Apache test page..
+Configure / Setup an auto-scaling group for the instances with an instance minimum of 2 and a maximum of 5. The scaling policy will use CloudWatch to scale after the CPU Utilization is above 80%
+Create one Target Group and register both the EC2 instances.
+Configure An Elastic Application Load Balancer which automatically distributes your network workload across multiple targets. 
+Those targets can be an EC2 instance, S3 bucket or an IP address in multiple availability zones.
+A stress tool will be used to stress an instance above 80% CPU Utilization to make sure the above scaling policy works.
