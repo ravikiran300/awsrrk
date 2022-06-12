@@ -1,3 +1,11 @@
+in nacl we allow ports and deny ports
+nacl operates on subnet level
+
+in security groubs instance level
+in security we can't deny port and we can only allow
+
+
+
 https://medium.com/@revathijoshi70/how-to-create-a-high-availability-web-site-using-autoscaling-and-application-load-balancer-6d0197116bb1
 
 How to create a high-availability web site with an Application Load Balancer using Autoscaling and monitored by Cloudwatch
