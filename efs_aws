@@ -1,0 +1,36 @@
+sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport 172.31.30.169:/ ravi
+https://cloudaffaire.com/how-to-mount-aws-efs-storage-in-existing-aws-ec2-instance-using-amazon-efs-utils-package/
+
+
+######################################
+## Install amazon-efs-utils package ##
+######################################
+ 
+## ---------------------------------------------------
+## Amazon Linux, Red Hat Linux, CentOS, and similar OS
+## ---------------------------------------------------
+ 
+## Update all the packages
+sudo yum -y update
+ 
+## Install git
+sudo yum -y install git
+ 
+## Install the rpm-build package
+sudo yum -y install rpm-build
+ 
+## Clone amazon-efs-utils source code
+git clone https://github.com/aws/efs-utils
+cd efs-utils
+ 
+## Install the bash make command
+sudo yum -y install make
+ 
+## Build the amazon-efs-utils package
+sudo make rpm
+ 
+## Install amazon-efs-utils
+sudo yum -y install ./build/amazon-efs-utils*rpm
+ 
+## amazon-efs-utils require botocore to be installed
+pip3 install botocore
