@@ -1,0 +1,2 @@
+Amazon Web Services (AWS) Lambda lets you run JavaScript (Node.js), Java & Python scripts/apps in Amazon's (virtually) infinitely-scalable cloud environment without having provision VM instances or other "orchestration";
+Everything is dynamically auto-scaled so if you have 1 user or 1 billion you pay for usage
