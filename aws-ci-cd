@@ -1,3 +1,9 @@
+
+CODECOMMIT 
+
+https://docs.aws.amazon.com/codecommit/latest/userguide/getting-started-cc.html
+
+
 AWS CODEBUILD
 
 https://docs.aws.amazon.com/codebuild/latest/userguide/getting-started.html
@@ -5,4 +11,14 @@ https://docs.aws.amazon.com/codebuild/latest/userguide/getting-started.html
 https://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html
 
 https://www.linkedin.com/pulse/aws-codebuild-devops-part-2-sandip-das
+
+CODEDEPLOY
+
+https://docs.aws.amazon.com/codedeploy/latest/userguide/tutorials.html
+
+
+
+aws-configure-auto-scaling-for-codedeploy
+
+https://medium.com/@elmanhasa/ci-cd-in-aws-configure-auto-scaling-for-codedeploy-28063b9e714
 
