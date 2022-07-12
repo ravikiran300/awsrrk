@@ -16,6 +16,9 @@ CODEDEPLOY
 
 https://docs.aws.amazon.com/codedeploy/latest/userguide/tutorials.html
 
+CI/CD With AWS CodePipeline + CodeCommit + CodeBuild + CodeDeploy | DevOps With AWS Ep.6
+
+https://blog.opstree.com/2020/10/27/how-to-implement-ci-cd-using-aws-codebuild-codedeploy-and-codepipeline/
 
 
 aws-configure-auto-scaling-for-codedeploy
